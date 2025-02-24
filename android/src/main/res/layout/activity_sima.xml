@@ -6,21 +6,4 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SimaActivity">
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="411dp" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="196dp"
-        android:layout_height="130dp"
-        tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="201dp"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+    tools:context=".SimaActivity"/>
