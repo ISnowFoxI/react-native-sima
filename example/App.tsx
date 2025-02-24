@@ -77,9 +77,9 @@ const Home = () => {
       />
       <View style={styles.buttonWrapper}>
         <Button
-          // disabled={
-          //   pinCode.length !== 7 || !clientId || !masterKey || !serviceName
-          // }
+          disabled={
+            pinCode.length !== 7 || !clientId || !masterKey || !serviceName
+          }
           color="green"
           title="Sima"
           onPress={handlePress}
