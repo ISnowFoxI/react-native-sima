@@ -3,7 +3,7 @@
 
 __metadata:
   version: 8
-  cacheKey: 10
+  cacheKey: 10c0
 
 "@actions/core@npm:^1.10.0":
   version: 1.11.1
@@ -9381,6 +9381,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-native-nitro-modules@npm:^0.24.1":
+  version: 0.24.1
+  resolution: "react-native-nitro-modules@npm:0.24.1"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 10c0/e6256441cfe22370d12928c07d28458366c32ab57045593a557d27f9abf94c2b161376ab8fbf9369695a56b88d2d236d11f6a8d87cf2ce582e15539bc327e0c0
+  languageName: node
+  linkType: hard
+
 "react-native-sima-example@workspace:example":
   version: 0.0.0-use.local
   resolution: "react-native-sima-example@workspace:example"
@@ -9415,7 +9425,7 @@ __metadata:
     react: "npm:19.0.0"
     react-native: "npm:0.78.0"
     react-native-builder-bob: "npm:^0.37.0"
-    react-native-nitro-modules: "npm:^0.23.0"
+    react-native-nitro-modules: "npm:^0.24.1"
     release-it: "npm:^18.1.2"
     typescript: "npm:5.0.4"
   peerDependencies:
