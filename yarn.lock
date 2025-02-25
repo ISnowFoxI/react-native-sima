@@ -3,7 +3,7 @@
 
 __metadata:
   version: 8
-  cacheKey: 10
+  cacheKey: 10c0
 
 "@actions/core@npm:^1.10.0":
   version: 1.11.1
@@ -8395,18 +8395,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nitro-codegen@npm:^0.23.0":
-  version: 0.23.0
-  resolution: "nitro-codegen@npm:0.23.0"
+"nitro-codegen@npm:^0.24.1":
+  version: 0.24.1
+  resolution: "nitro-codegen@npm:0.24.1"
   dependencies:
     chalk: "npm:^5.3.0"
-    react-native-nitro-modules: "npm:^0.23.0"
+    react-native-nitro-modules: "npm:^0.24.1"
     ts-morph: "npm:^25.0.0"
     yargs: "npm:^17.7.2"
     zod: "npm:^3.23.8"
   bin:
     nitro-codegen: lib/index.js
-  checksum: 10/de18bac389f7e69ba3f03f7f95233b6856173c4f5713a4c007903a817c22adedd00ba156ccf3c9d6b3b96441d14485bc5c4a4e8cbca0f2763e30dec75a4be643
+  checksum: 10c0/29cbc6d85414b4b6d194a4ed72d4bdd59ea8f5fda447d0d4d97b50c62befe8eba31277c0d36791f7571bc0e7dd06d95552fc83697fa6367c2a5215f036d07022
   languageName: node
   linkType: hard
 
@@ -9381,6 +9381,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-native-nitro-modules@npm:^0.24.1":
+  version: 0.24.1
+  resolution: "react-native-nitro-modules@npm:0.24.1"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 10c0/e6256441cfe22370d12928c07d28458366c32ab57045593a557d27f9abf94c2b161376ab8fbf9369695a56b88d2d236d11f6a8d87cf2ce582e15539bc327e0c0
+  languageName: node
+  linkType: hard
+
 "react-native-sima-example@workspace:example":
   version: 0.0.0-use.local
   resolution: "react-native-sima-example@workspace:example"
@@ -9411,7 +9421,7 @@ __metadata:
     "@release-it/conventional-changelog": "npm:^10.0.0"
     "@types/jest": "npm:^29.5.12"
     "@types/react": "npm:^19.0.10"
-    nitro-codegen: "npm:^0.23.0"
+    nitro-codegen: "npm:^0.24.1"
     react: "npm:19.0.0"
     react-native: "npm:0.78.0"
     react-native-builder-bob: "npm:^0.37.0"
