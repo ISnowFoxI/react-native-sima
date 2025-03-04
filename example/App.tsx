@@ -17,6 +17,7 @@ const Home = () => {
   const [serviceName, setServiceName] = useState('Your service name');
   const [appScheme, setAppScheme] = useState('react-native-sima');
   const [isLoading, setIsLoading] = useState(false);
+
   const handlePress = async () => {
     try {
       setIsLoading(true);
@@ -29,7 +30,7 @@ const Home = () => {
         masterKey: masterKey,
       })
         .then(res => {
-          console.log('res', res);
+          console.log('res', JSON.parse(res));
         })
         .catch(error => {
           handleError(error);
