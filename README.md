@@ -19,6 +19,21 @@ Make sure to checkout nitro modules [docs](https://nitro.margelo.com/docs/what-i
 ## Example
 
 ```
+...
+
+import {startSimaAuth, handleError} from 'react-native-sima';
+
+...
+
+  const [pinCode, setPinCode] = useState('1234567');
+  const [clientId, setClientId] = useState('1');
+  const [masterKey, setMasterKey] = useState('Your master key');
+  const [serviceName, setServiceName] = useState('Your service name');
+  const [appScheme, setAppScheme] = useState('react-native-sima');
+  const [isLoading, setIsLoading] = useState(false);
+
+...
+
 const handlePress = async () => {
     try {
       setIsLoading(true);
