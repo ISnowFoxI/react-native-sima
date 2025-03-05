@@ -29,7 +29,7 @@ namespace margelo::nitro::sima {
   }
 
   size_t JHybridSimaSpec::getExternalMemorySize() noexcept {
-    static const auto method = _javaPart->getClass()->getMethod<jlong()>("getMemorySize");
+    static const auto method = javaClassStatic()->getMethod<jlong()>("getMemorySize");
     return method(_javaPart);
   }
 
@@ -38,7 +38,7 @@ namespace margelo::nitro::sima {
 
   // Methods
   std::shared_ptr<Promise<std::string>> JHybridSimaSpec::startSimaAuth(const SimaData& data) {
-    static const auto method = _javaPart->getClass()->getMethod<jni::local_ref<JPromise::javaobject>(jni::alias_ref<JSimaData> /* data */)>("startSimaAuth");
+    static const auto method = javaClassStatic()->getMethod<jni::local_ref<JPromise::javaobject>(jni::alias_ref<JSimaData> /* data */)>("startSimaAuth");
     auto __result = method(_javaPart, JSimaData::fromCpp(data));
     return [&]() {
       auto __promise = Promise<std::string>::create();
