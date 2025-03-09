@@ -11,6 +11,10 @@
 yarn add react-native-sima react-native-nitro-modules
 ```
 
+### Ios
+
+On ios you will need to enable deeplinks to receive the response via app schema. See [React Native Docs](https://reactnative.dev/docs/linking#enabling-deep-links) for more info.
+
 #### About Nitro modules
 
 This library uses nitro modules to support native features. Without it the library will not work
